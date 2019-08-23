@@ -9,8 +9,6 @@ services:
     working_dir: /usr/src/smart-brain-api
     env_file:
       - .env
-    links:
-      - postgres
     ports:
       - "3000:3000"
     volumes:
